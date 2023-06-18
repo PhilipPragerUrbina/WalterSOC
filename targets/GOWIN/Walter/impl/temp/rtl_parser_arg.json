@@ -1,0 +1,52 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/DisplayGenerator.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/StandardOutput.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextRenderer.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextStream.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/BRAM.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/DualPortBRAM.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/ROM.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/GowinTop.vs",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/dvi_tx/DVIOut.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/impl/temp/rtl_parser.result",
+ "Top" : "GowinTop",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

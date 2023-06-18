@@ -19,4 +19,4 @@ module ROM # (
     always_ff @(posedge clk) begin
         data <= memory[address];
     end
-endmodule;
+endmodule

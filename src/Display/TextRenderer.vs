@@ -106,11 +106,11 @@ DualPortBRAM  # (
 ROM # (
     .DATA_WIDTH(FONT_WIDTH),
     .DEPTH(FONT_CHARACTERS*FONT_HEIGHT),
-    .INIT_FILE("resources/bitmaps/unscii-8.hex") //unicode font cut off at 256 characters
+    .INIT_FILE("unscii-8.hex") //unicode font cut off at 256 characters todo fix path
 ) font (
     .address(font_bitmap_address),
     .data(font_bitmap_data),
     .clk(dot_clk)
 );
 
-endmodule;
+endmodule

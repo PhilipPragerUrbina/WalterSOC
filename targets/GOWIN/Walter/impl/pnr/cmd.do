@@ -1,0 +1,14 @@
+-d C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\impl\gwsynthesis\Walter.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\nano_20k.cst
+-cfg C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\impl\pnr\device.cfg
+-sdc C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\nano_20k.sdc
+-bit
+-tr
+-ph
+-warning_all
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

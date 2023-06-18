@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\DisplayGenerator.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextStream.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\BRAM.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\DualPortBRAM.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\ROM.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\GowinTop.vs" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v" type="verilog"/>
+        <File path="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\impl\gwsynthesis\Walter.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="GowinTop"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

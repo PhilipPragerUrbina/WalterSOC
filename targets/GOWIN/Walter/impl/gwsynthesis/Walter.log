@@ -1,0 +1,72 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\DisplayGenerator.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextStream.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\BRAM.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\DualPortBRAM.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\ROM.vs'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\GowinTop.vs'
+Undeclared symbol 'hsync', assumed default net type 'wire'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\GowinTop.vs":37)
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v'
+Analyzing Verilog file 'C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\gowin_rpll\gowin_rpll.v'
+Compiling module 'GowinTop'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\GowinTop.vs":1)
+Compiling module 'Gowin_rPLL'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\gowin_rpll\gowin_rpll.v":10)
+Compiling module 'StandardOutput'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":2)
+Compiling module 'DisplayGenerator'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\DisplayGenerator.vs":3)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\DisplayGenerator.vs":80)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\DisplayGenerator.vs":83)
+Compiling module 'TextRenderer'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs":2)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs":53)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs":56)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs":60)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\TextRenderer.vs":64)
+Compiling module 'DualPortBRAM'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\DualPortBRAM.vs":2)
+Extracting RAM for identifier 'memory'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\DualPortBRAM.vs":18)
+Compiling module 'ROM(INIT_FILE="unscii-8.hex",DEPTH=2048)'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\ROM.vs":2)
+Extracting RAM for identifier 'memory'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Memory\ROM.vs":13)
+WARN  (EX2565) : Input 'buffer_write_address[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_address[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_data[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_write_enable' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX2565) : Input 'buffer_clk' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\src\Display\StandardOutput.vs":57)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'rst'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\GowinTop.vs":22)
+Compiling module '**'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v":0)
+Compiling module '**'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v":0)
+Compiling module '**'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v":0)
+Compiling module '**'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v":0)
+Compiling module '**'("C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\src\dvi_tx\DVIOut.v":0)
+NOTE  (EX0101) : Current top module is "GowinTop"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\impl\gwsynthesis\Walter.vg" completed
+[100%] Generate report file "C:\Users\Philip\Desktop\WalterSOC\WalterSOC\targets\GOWIN\Walter\impl\gwsynthesis\Walter_syn.rpt.html" completed
+GowinSynthesis finish

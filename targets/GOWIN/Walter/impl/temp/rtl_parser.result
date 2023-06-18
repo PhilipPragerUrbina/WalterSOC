@@ -1,0 +1,88 @@
+[
+ {
+  "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextStream.vs",
+  "InstLine" : 2,
+  "InstName" : "TextStream",
+  "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextStream.vs",
+  "ModuleLine" : 2,
+  "ModuleName" : "TextStream"
+ },
+ {
+  "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/BRAM.vs",
+  "InstLine" : 2,
+  "InstName" : "BRAM",
+  "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/BRAM.vs",
+  "ModuleLine" : 2,
+  "ModuleName" : "BRAM"
+ },
+ {
+  "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/GowinTop.vs",
+  "InstLine" : 1,
+  "InstName" : "GowinTop",
+  "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/GowinTop.vs",
+  "ModuleLine" : 1,
+  "ModuleName" : "GowinTop",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/GowinTop.vs",
+    "InstLine" : 33,
+    "InstName" : "DVI",
+    "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/dvi_tx/DVIOut.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DVIOut"
+   },
+   {
+    "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/GowinTop.vs",
+    "InstLine" : 13,
+    "InstName" : "PLL",
+    "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/targets/GOWIN/Walter/src/GowinTop.vs",
+    "InstLine" : 19,
+    "InstName" : "out",
+    "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/StandardOutput.vs",
+    "ModuleLine" : 2,
+    "ModuleName" : "StandardOutput",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/StandardOutput.vs",
+      "InstLine" : 37,
+      "InstName" : "generator",
+      "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/DisplayGenerator.vs",
+      "ModuleLine" : 3,
+      "ModuleName" : "DisplayGenerator"
+     },
+     {
+      "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/StandardOutput.vs",
+      "InstLine" : 49,
+      "InstName" : "renderer",
+      "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextRenderer.vs",
+      "ModuleLine" : 2,
+      "ModuleName" : "TextRenderer",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextRenderer.vs",
+        "InstLine" : 94,
+        "InstName" : "buffer",
+        "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/DualPortBRAM.vs",
+        "ModuleLine" : 2,
+        "ModuleName" : "DualPortBRAM"
+       },
+       {
+        "InstFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Display/TextRenderer.vs",
+        "InstLine" : 110,
+        "InstName" : "font",
+        "ModuleFile" : "C:/Users/Philip/Desktop/WalterSOC/WalterSOC/src/Memory/ROM.vs",
+        "ModuleLine" : 2,
+        "ModuleName" : "ROM"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

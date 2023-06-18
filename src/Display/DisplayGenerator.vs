@@ -95,4 +95,4 @@ always_ff @(posedge dot_clk) begin
         y <= y_reg;
     end
 end
-endmodule;
+endmodule

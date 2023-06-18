@@ -31,4 +31,4 @@ module BRAM # (
     always_ff @(posedge clk) begin
         read_data <= memory[address_read];
     end
-endmodule;
+endmodule

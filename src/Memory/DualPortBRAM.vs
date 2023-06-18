@@ -18,7 +18,8 @@ module DualPortBRAM # (
     logic [DATA_WIDTH-1:0] memory [DEPTH-1:0]; 
 
     initial begin
-        for(int i = 0; i < DEPTH; i++) begin
+        integer i;
+        for(i=0; i < DEPTH; i=i+1) begin
             memory[i] = INITITIAL_VALUE;
         end
         memory[0] = 8'h0048;//h
@@ -45,4 +46,4 @@ module DualPortBRAM # (
     always_ff @(posedge clk_read) begin
         read_data <= memory[address_read];
     end
-endmodule;
+endmodule
